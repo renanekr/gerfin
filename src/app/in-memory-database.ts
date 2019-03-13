@@ -4,7 +4,7 @@ import { Category } from "./pages/categories/shared/category.model";
 
 export class InMemoryDatabase implements InMemoryDbService {
     createDb(){
-        const categories = Category[] = [
+        const categories: Category[] = [
             { id: 1, name: 'Moradia', description: 'Pagamento de contas da casa'},
             { id: 2, name: 'Saúde', description: 'Plano de saúde e remédios'},
             { id: 3, name: 'Lazer', description: 'Cinema, praia, parques, etc'},
